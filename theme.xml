@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Theme: MinUArk
+Original author: Vidnez
+License: creative commons CC-BY-NC-SA
+-->
+<theme>
+  <formatVersion>7</formatVersion>
+    
+  <include name="ES Header">./header.xml</include>
+  
+  <view name="menu">
+  
+    <menuText name="menutitle">
+      <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
+      <fontSize>0.044</fontSize>
+      <color>ffffff</color>
+    </menuText>
+	
+    <menuText name="menufooter">
+      <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
+      <fontSize>0.02</fontSize>
+    </menuText>
+	
+    <menuText name="menutext">
+      <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
+      <fontSize>0.038</fontSize>
+      <color>ffffff90</color>
+      <selectorColor>ffffff</selectorColor>
+      <selectorColorEnd>ffffff</selectorColorEnd>
+      <selectedColor>000000</selectedColor>
+      <separatorColor>00000000</separatorColor>
+    </menuText>
+	
+    <menuTextSmall name="menutextsmall">
+      <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
+      <fontSize>0.02</fontSize>
+    </menuTextSmall>
+	
+    <menuBackground name="menubg">
+      <color>000000</color>
+    </menuBackground>
+	
+  </view>
+  
+  <view name="system">
+
+     <image name="staticBackground">
+      <size>1 1</size>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <tile>false</tile>
+      <linearSmooth>true</linearSmooth>
+      <path>./assets/bg.png</path>
+      <zIndex>0</zIndex>
+     </image>
+  
+     <image name="logo">
+      <path>./art/${system.theme}.svg</path>
+     </image>
+	
+     <text name="logoText">
+      <selectorColor>ffffff</selectorColor>
+      <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
+      <forceUppercase>0</forceUppercase>
+      <fontSize>0.05</fontSize>
+      <color>FFFFFF</color>
+     </text>
+	
+  </view>
+  
+  
+  
+  <view name="detailed">
+	
+  <textlist name="gamelist">
+      <selectorColor>ffffff</selectorColor>
+      <selectorColorEnd>ffffff</selectorColorEnd>
+      <selectedColor>000000</selectedColor>
+      <primaryColor>ffffff90</primaryColor>
+      <secondaryColor>ffffff90</secondaryColor>
+      <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
+      <backgroundCornerSize>9 9</backgroundCornerSize>
+      <padding>9 9</padding>
+      <fontSize>0.034</fontSize>
+      <pos>0.051 0.11</pos>
+      <size>0.50 0.8</size>
+      <alignment>left</alignment>
+      <itemsBeforeCenter>6</itemsBeforeCenter>
+      <horizontalMargin>0.01</horizontalMargin>
+      <origin>0 0</origin>
+      <lineSpacing>1.8</lineSpacing>
+      <selectorImagePath>./assets/selector_bar.png</selectorImagePath>
+      <selectorOffsetY>-0.01</selectorOffsetY>
+      <selectorHeight>0.0795</selectorHeight>
+    </textlist>
+    
+	  <text name="system_name" extra="true">
+      <text>${system.fullName}</text>
+      <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
+      <forceUppercase>0</forceUppercase>
+      <size>0.9 0.025</size>
+      <pos>0.05 0.022</pos>
+      <color>ffffff90</color>
+      <alignment>left</alignment>
+      <fontSize>0.04</fontSize>
+      <zIndex>2</zIndex>
+    </text>
+	
+    <text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate">
+      <visible>false</visible>
+    </text>
+	
+    <rating name="md_rating">
+      <visible>false</visible>
+    </rating>
+	
+    <image name="md_thumbnail">
+      <visible>false</visible>
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.5</pos>
+      <minSize>1.25 1.25</minSize>
+      <color>FFFFFF0A</color>
+    </image>
+	
+    <video name="md_video">
+	    <origin>0.5 0.5</origin>
+      <pos>0.776 0.33</pos>
+      <maxSize>0.347 0.46</maxSize>
+      <delay>1.5</delay>
+      <showSnapshotNoVideo>true</showSnapshotNoVideo>
+      <showSnapshotDelay>true</showSnapshotDelay>
+      <snapshotSource>image</snapshotSource>
+	    <effect>none</effect>
+    </video>
+	
+    <text name="md_description">
+	    <pos>0.605 0.585</pos>
+      <size>0.347 0.3</size>
+      <color>ffffff90</color>
+      <fontSize>0.025</fontSize>
+      <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
+	  </text>
+	
+    
+	 </view>
+  
+
+   <view name="basic">
+      <textlist name="gamelist">
+      <selectorColor>ffffff</selectorColor>
+      <selectorColorEnd>ffffff</selectorColorEnd>
+      <selectedColor>000000</selectedColor>
+      <primaryColor>ffffff90</primaryColor>
+      <secondaryColor>ffffff90</secondaryColor>
+      <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
+      <fontSize>0.034</fontSize>
+      <pos>0.051 0.11</pos>
+      <size>0.5 0.8</size>
+      <alignment>left</alignment>
+      <horizontalMargin>0.01</horizontalMargin>
+      <origin>0 0</origin>
+      <lineSpacing>1.8</lineSpacing>
+      <selectorImagePath>./assets/selector_bar.png</selectorImagePath>
+      <selectorOffsetY>-0.01</selectorOffsetY>
+      <selectorHeight>0.0795</selectorHeight>
+    </textlist>
+
+
+    <text name="system_name" extra="true">
+      <text>${system.fullName}</text>
+      <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
+      <forceUppercase>0</forceUppercase>
+      <size>0.9 0.025</size>
+      <pos>0.05 0.022</pos>
+      <color>ffffff90</color>
+      <alignment>left</alignment>
+      <fontSize>0.04</fontSize>
+      <zIndex>2</zIndex>
+    </text>
+
+   </view>
+  
+  
+   <view name="grid">
+	    <imagegrid name="gamegrid">
+        <systemNameSuffix>true</systemNameSuffix>
+        <pos>-0.01 0.09</pos>
+        <size>1 0.85</size>
+        <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
+        <imageSource>image</imageSource>
+        <scrollDirection>vertical</scrollDirection>
+        <autoLayout>3 3</autoLayout>
+        <margin>0.00001 0.015</margin>
+        <padding>0.02 0.02 0 0</padding>
+        <animateSelection>false</animateSelection>
+        <maxlength>.5</maxlength>
+      </imagegrid>
+
+    <gridtile name="default">
+      <backgroundColor>00000000</backgroundColor>
+      <selectionMode>image</selectionMode>
+      <imageColor>ffffff80</imageColor>
+    </gridtile>
+
+    <gridtile name="selected">
+      <backgroundCenterColor>ffffff</backgroundCenterColor>
+      <backgroundEdgeColor>ffffff</backgroundEdgeColor>
+      <imageColor>ffffff</imageColor>
+
+    </gridtile>
+    <text name="gridtile">
+      <color>ffffff</color>
+      <backgroundColor>ffffff00</backgroundColor>
+      <fontSize>0.025</fontSize>
+      <alignment>center</alignment>
+      <size>.05 0.24</size>
+      <visible>false</visible>
+    </text>
+    <text name="gridtile_selected">
+      <color>0e0e29</color>
+      <glowColor>ffffff</glowColor>
+      <glowSize>5</glowSize>
+      <visible>false</visible>
+    </text>
+
+    <text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate">
+      <visible>false</visible>
+    </text>
+  
+    <rating name="md_rating">
+      <visible>false</visible>
+    </rating>
+
+    <text name="md_name">
+      <color>ffffff90</color>
+      <forceUppercase>0</forceUppercase>
+      <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
+       <alignment>left</alignment>
+      <fontSize>0.035</fontSize>
+      <pos>0.03 0.003</pos>
+      <size>0.68 0</size>
+      <textColor>FFFFFF90</textColor>
+    </text>
+
+     <video name="md_video">
+      <pos>0.9 0.058</pos>
+      <maxSize>0.15 0.12</maxSize>
+      <origin>0.5 0.5</origin>
+      <default>./assets/no_signal.mp4</default>
+      <delay>2</delay>
+      <showSnapshotNoVideo>false</showSnapshotNoVideo>
+      <showSnapshotDelay>false</showSnapshotDelay>
+      <visible>false</visible>
+     </video>
+
+	   <image name="gridtile.favorite">
+      <path>./assets/favorites.svg</path>
+      <pos>0.0 0</pos>
+      <maxSize>0.25 0.25</maxSize>
+      <origin>0 0</origin>
+      <color>ffffff80</color>
+     </image>
+     <image name="gridtile.favorite:selected">
+      <path>./assets/favorites.svg</path>
+      <color>ffffff</color>
+     </image>
+     <image name="gridtile.cheevos">
+      <path>./assets/cheevos.svg</path>
+      <pos>0 1</pos>
+      <maxSize>0.25 0.25</maxSize>
+      <origin>0 1</origin>
+      <color>ffffff80</color>
+     </image>
+     <image name="gridtile.cheevos:selected">
+      <path>./assets/cheevos.svg</path>
+      <color>ffffff</color>
+     </image>
+
+  </view>
+    <view name="system">
+  
+    <carousel name="systemcarousel" extra="true">
+      <type>vertical</type>
+      <pos>0.07 0.1</pos>
+      <size>1 0.8</size>
+      <origin>0 0</origin>
+      <color>ffffff00</color>
+      <maxLogoCount>7</maxLogoCount>
+      <logoScale>1</logoScale>
+      <itemStacking>descending</itemStacking>
+      <logoSize>0.9 0.9</logoSize>
+      <logoPos>0 0</logoPos>
+      <fastScrolling>true</fastScrolling>
+    </carousel>
+	
+    <text name="systemInfo">
+      <visible>false</visible>
+      <pos>0.03 -0.09</pos>
+      <size>1 0.25</size>
+      <alignment>left</alignment>
+      <backgroundColor>00000000</backgroundColor>
+      <color>ffffff90</color>
+      <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
+      <fontSize>0.035</fontSize>
+    </text>
+
+  </view>
+  
+  
+</theme>
