@@ -154,16 +154,17 @@ License: creative commons CC-BY-NC-SA
       <primaryColor>ffffff90</primaryColor>
       <secondaryColor>ffffff90</secondaryColor>
       <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
-      <fontSize>0.034</fontSize>
-      <pos>0.051 0.11</pos>
-      <size>0.5 0.8</size>
+      <fontSize>0.055</fontSize>
+      <pos>0.055 0.11</pos>
+      <size>0.91 0.8</size>
       <alignment>left</alignment>
-      <horizontalMargin>0.01</horizontalMargin>
+      <horizontalMargin>0.02</horizontalMargin>
       <origin>0 0</origin>
       <lineSpacing>1.8</lineSpacing>
-      <selectorImagePath>./assets/selector_bar.png</selectorImagePath>
-      <selectorOffsetY>-0.01</selectorOffsetY>
-      <selectorHeight>0.0795</selectorHeight>
+      <selectorImagePath>./assets/selector_bar_basic.png</selectorImagePath>
+      <selectorOffsetY>-0.02</selectorOffsetY>
+      <selectorOffsetX>-0.02</selectorOffsetX>
+      <selectorHeight>0.14</selectorHeight>
     </textlist>
 
 
