@@ -8,3 +8,17 @@ For a better experience close to the original MinUI interface:
 
 
 ![preview](https://github.com/Vidnez/MinUArk/assets/82564218/94b3f8ac-7204-46ab-8db0-1378ed48d92e)
+
+**Optional**
+
+You can download in the "release section" a loading screen and a boot logo. Installation instruction below.
+
+![boologo_arkos](https://github.com/Vidnez/MinUArk/assets/82564218/1e63ec6e-4414-4424-92a9-3dbe611c8cca)
+![loading](https://github.com/Vidnez/MinUArk/assets/82564218/d29842dc-1dd6-4063-b64d-0a07bd718abb)
+
+**Installation instruction:**
+
+For loading screen copy loading.jpg file to roms/launchimages
+
+For bootlogo copy the "Image" file to the BOOT partition of your SD1 card overwriting the existing one.
+
