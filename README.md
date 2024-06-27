@@ -11,7 +11,7 @@ For a better experience close to the original MinUI interface:
 
 **Optional**
 
-You can download in the "release section" a loading screen and a boot logo. Installation instruction below.
+You can download in the "releases section" a loading screen and a boot logo. Installation instruction below.
 
 ![boologo_arkos](https://github.com/Vidnez/MinUArk/assets/82564218/1e63ec6e-4414-4424-92a9-3dbe611c8cca)
 ![loading](https://github.com/Vidnez/MinUArk/assets/82564218/d29842dc-1dd6-4063-b64d-0a07bd718abb)
