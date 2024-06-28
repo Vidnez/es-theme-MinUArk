@@ -23,3 +23,5 @@ For loading screen copy loading.jpg file to roms/launchimages
 
 For bootlogo copy the "Image" file to the BOOT partition of your SD1 card overwriting the existing one.
 
+**Warning** Changing the boot logo could cause a known bug that would cause the unit to reboot instead of shutting down. To solve this, you need to open the unit and disconnect the battery for at least 30 seconds. Or power on the unit with a separate SD card with Jelos/Rocknix installed and when the OS boots and before doing anything press select and power off the system. Both solutions will fix the error.
+
