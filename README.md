@@ -4,7 +4,7 @@ For a experience close to the original MinUI interface:
 
 - Set Transition Style to "Instant" and turn off carousel transitions (**ArkOS only**) in Start Menu > UI Settings.
 - Set Gamelist View Style to "Basic" in Start Menu > UI Settings > Theme Configuration
-- The gamelist views are optimized for use screnshoots for the "grid" view and boxart for the "detailed" view. You can have both images if you use the following options in the scraper:
+- The theme is optimized for use screenshots for the "grid" view and boxart for the "detailed" view. You can have both images if you set the following options in the scraper:
 
 	- **Image Source:** Screenshot
 	- **Box source:** Box2D or Box3D
