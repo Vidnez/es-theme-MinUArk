@@ -1,5 +1,7 @@
 # Theme for the RGB30 based on ShaunInman's MinUI
 
+Jelos/Rocknix and ArkOS versions can be downloaded in the "releases" section.
+
 For a experience close to the original MinUI interface: 
 
 - Set Transition Style to "Instant" and turn off carousel transitions (**ArkOS only**) in Start Menu > UI Settings.
