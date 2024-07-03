@@ -1,6 +1,6 @@
 # Theme for the RGB30 based on ShaunInman's MinUI
 
-Jelos/Rocknix and ArkOS versions can be downloaded in the "releases" section.
+**Jelos/Rocknix and ArkOS versions can be downloaded in the "releases" section.**
 
 For a experience close to the original MinUI interface: 
 
@@ -12,7 +12,7 @@ For a experience close to the original MinUI interface:
 	- **Box source:** Box2D or Box3D
 	- **Logo Source:** Wheel
 
-	**Note:** Most of the themes use the first option as the image source to show boxart, so changing that to screenshot would cause that other themes showing a screenshot instead of boxart.
+  **Note:** Most of the themes use the first option as the image source to show boxart, so changing that to screenshot would cause that other themes showing a screenshot instead of boxart.
 
 
 ![preview](https://github.com/Vidnez/MinUArk/assets/82564218/94b3f8ac-7204-46ab-8db0-1378ed48d92e)
