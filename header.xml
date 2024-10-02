@@ -10,9 +10,9 @@ License: creative commons CC-BY-NC-SA
   <view name="screen">
     <text name="clock">
       <origin>0 0.5</origin>
-      <pos>0.6 0.03</pos>
+      <pos>1 0.034</pos>
       <size>0.3 .1</size>
-      <fontSize>0.035</fontSize>
+      <fontSize>0.026</fontSize>
       <color>FFFFFF90</color>
       <horizontalAlignment>center</horizontalAlignment>
       <verticalAlignment>center</verticalAlignment>
@@ -20,21 +20,22 @@ License: creative commons CC-BY-NC-SA
     </text>
 
     <batteryIndicator name="batteryIndicator">
-         <pos>0.92 0.003</pos>
+         <pos>0.84 0.003</pos>
          <size>0.06</size>
-         <itemSpacing>1</itemSpacing>
-         <full>./assets/battery=full.png</full>
-         <at75>./assets/battery=75.png</at75>
-         <at50>./assets/battery=50.png</at50>
-         <at25>./assets/battery=25.png</at25>
-         <empty>./assets/battery=empty.png</empty>
-         <incharge>./assets/battery=charging.png</incharge>
+         <itemSpacing>0.01</itemSpacing>
+         <full>./assets/battery=full.svg</full>
+         <at75>./assets/battery=75.svg</at75>
+         <at50>./assets/battery=50.svg</at50>
+         <at25>./assets/battery=25.svg</at25>
+         <empty>./assets/battery=empty.svg</empty>
+         <incharge>./assets/battery=charging.svg</incharge>
        
          </batteryIndicator>
   </view>
 
   <view name="system">
     <helpsystem name="help">
+      <pos>-0.1 2</pos>
       <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
 	  <textColor>FFFFFF90</textColor>
       <iconColor>FFFFFF90</iconColor>
@@ -44,10 +45,11 @@ License: creative commons CC-BY-NC-SA
   
   <view name="basic, detailed, grid">
     <helpsystem name="help">
+      <pos>-0.1 2</pos>
 	  <textColor>FFFFFF90</textColor>
       <iconColor>FFFFFF90</iconColor>
       <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
-      <fontSize>0.022</fontSize>
+      <fontSize>0.02</fontSize>
     </helpsystem>
   </view>
   

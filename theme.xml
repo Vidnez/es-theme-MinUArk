@@ -89,17 +89,17 @@ License: creative commons CC-BY-NC-SA
       <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
       <backgroundCornerSize>9 9</backgroundCornerSize>
       <padding>9 9</padding>
-      <fontSize>0.034</fontSize>
-      <pos>0.051 0.11</pos>
-      <size>0.50 0.8</size>
+      <fontSize>0.05</fontSize>
+      <pos>0.055 0.15</pos>
+      <size>0.60 0.7</size>
       <alignment>left</alignment>
-      <itemsBeforeCenter>6</itemsBeforeCenter>
-      <horizontalMargin>0.01</horizontalMargin>
+      <itemsBeforeCenter>5</itemsBeforeCenter>
+      <horizontalMargin>0.03</horizontalMargin>
       <origin>0 0</origin>
       <lineSpacing>1.8</lineSpacing>
       <selectorImagePath>./assets/selector_bar.png</selectorImagePath>
-      <selectorOffsetY>-0.01</selectorOffsetY>
-      <selectorHeight>0.0795</selectorHeight>
+      <selectorOffsetY>-0.008</selectorOffsetY>
+      <selectorHeight>0.1</selectorHeight>
     </textlist>
     
 	  <text name="system_name" extra="true">
@@ -107,12 +107,20 @@ License: creative commons CC-BY-NC-SA
       <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
       <forceUppercase>0</forceUppercase>
       <size>0.9 0.025</size>
-      <pos>0.05 0.022</pos>
-      <color>ffffff90</color>
-      <alignment>left</alignment>
-      <fontSize>0.04</fontSize>
-      <zIndex>2</zIndex>
+      <pos>-0.23 0.955</pos>
+      <color>000000</color>
+      <alignment>center</alignment>
+      <fontSize>0.026</fontSize>
+      <zIndex>3</zIndex>
     </text>
+
+    <image name="background" extra="true">
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <path>./assets/bg-gl.png</path>
+      <zIndex>2</zIndex>
+    </image>
 	
     <text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate">
       <visible>false</visible>
@@ -122,26 +130,30 @@ License: creative commons CC-BY-NC-SA
       <visible>false</visible>
     </rating>
 	
-    <image name="md_thumbnail">
-      <visible>false</visible>
+    <image name="md_image">
+      <visible>true</visible>
       <origin>0.5 0.5</origin>
-      <pos>0.5 0.5</pos>
-      <minSize>1.25 1.25</minSize>
-      <color>FFFFFF0A</color>
+      <pos>0.8 0.5</pos>
+      <minSize>1 1</minSize>
+      <color>FFFFFF</color>
+      <zIndex>1</zIndex>
     </image>
 	
     <video name="md_video">
+      <visible>true</visible>
 	    <origin>0.5 0.5</origin>
-      <pos>0.776 0.33</pos>
-      <maxSize>0.347 0.46</maxSize>
-      <delay>1.5</delay>
+      <pos>0.8 0.5</pos>
+      <minSize>1 1</minSize>
+      <delay>1</delay>
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <showSnapshotDelay>true</showSnapshotDelay>
-      <snapshotSource>thumbnail</snapshotSource>
+      <snapshotSource>image</snapshotSource>
 	    <effect>none</effect>
+      <zIndex>1</zIndex>
     </video>
 	
     <text name="md_description">
+      <visible>false</visible>
 	    <pos>0.605 0.585</pos>
       <size>0.347 0.3</size>
       <color>ffffff90</color>
@@ -161,18 +173,26 @@ License: creative commons CC-BY-NC-SA
       <primaryColor>ffffff90</primaryColor>
       <secondaryColor>ffffff90</secondaryColor>
       <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
-      <fontSize>0.055</fontSize>
-      <pos>0.055 0.11</pos>
-      <size>0.91 0.8</size>
+      <fontSize>0.05</fontSize>
+      <pos>0.054 0.15</pos>
+      <size>0.9 0.7</size>
       <alignment>left</alignment>
-      <horizontalMargin>0.02</horizontalMargin>
+      <horizontalMargin>0.03</horizontalMargin>
       <origin>0 0</origin>
       <lineSpacing>1.8</lineSpacing>
       <selectorImagePath>./assets/selector_bar_basic.png</selectorImagePath>
-      <selectorOffsetY>-0.02</selectorOffsetY>
-      <selectorOffsetX>-0.02</selectorOffsetX>
+      <selectorOffsetY>-0.025</selectorOffsetY>
+      <selectorOffsetX>0</selectorOffsetX>
       <selectorHeight>0.14</selectorHeight>
     </textlist>
+
+    <image name="background" extra="true">
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <path>./assets/bg-gl.png</path>
+      <zIndex>1</zIndex>
+    </image>
 
 
     <text name="system_name" extra="true">
@@ -180,10 +200,10 @@ License: creative commons CC-BY-NC-SA
       <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
       <forceUppercase>0</forceUppercase>
       <size>0.9 0.025</size>
-      <pos>0.05 0.022</pos>
-      <color>ffffff90</color>
-      <alignment>left</alignment>
-      <fontSize>0.04</fontSize>
+      <pos>-0.23 0.955</pos>
+      <color>000000</color>
+      <alignment>center</alignment>
+      <fontSize>0.026</fontSize>
       <zIndex>2</zIndex>
     </text>
 
@@ -193,7 +213,7 @@ License: creative commons CC-BY-NC-SA
    <view name="grid">
 	    <imagegrid name="gamegrid">
         <systemNameSuffix>true</systemNameSuffix>
-        <pos>-0.01 0.09</pos>
+        <pos>-0.01 0.067</pos>
         <size>1 0.85</size>
         <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
         <imageSource>image</imageSource>
@@ -232,6 +252,26 @@ License: creative commons CC-BY-NC-SA
       <visible>false</visible>
     </text>
 
+    <image name="background" extra="true">
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <path>./assets/bg-glg.png</path>
+      <zIndex>1</zIndex>
+    </image>
+
+    <text name="system_name" extra="true">
+      <text>${system.fullName}</text>
+      <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
+      <forceUppercase>0</forceUppercase>
+      <size>0.9 0.025</size>
+      <pos>-0.23 0.955</pos>
+      <color>000000</color>
+      <alignment>center</alignment>
+      <fontSize>0.026</fontSize>
+      <zIndex>2</zIndex>
+    </text>
+
     <text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate">
       <visible>false</visible>
     </text>
@@ -241,14 +281,13 @@ License: creative commons CC-BY-NC-SA
     </rating>
 
     <text name="md_name">
-      <color>ffffff90</color>
+      <color>000000</color>
       <forceUppercase>0</forceUppercase>
       <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
-       <alignment>left</alignment>
-      <fontSize>0.035</fontSize>
-      <pos>0.03 0.003</pos>
-      <size>0.68 0</size>
-      <textColor>FFFFFF90</textColor>
+       <alignment>center</alignment>
+      <fontSize>0.026</fontSize>
+      <pos>0.037 0.02</pos>
+      <size>0.5 0.026</size>
     </text>
 
      <video name="md_video">
@@ -290,27 +329,27 @@ License: creative commons CC-BY-NC-SA
   
     <carousel name="systemcarousel" extra="true">
       <type>vertical</type>
-      <pos>0.07 0.1</pos>
-      <size>1 0.8</size>
+      <pos>0.08 0.15</pos>
+      <size>1 0.7</size>
       <origin>0 0</origin>
       <color>ffffff00</color>
       <maxLogoCount>7</maxLogoCount>
       <logoScale>1</logoScale>
       <itemStacking>descending</itemStacking>
-      <logoSize>0.9 0.9</logoSize>
+      <logoSize>0.8 0.8</logoSize>
       <logoPos>0 0</logoPos>
       <fastScrolling>true</fastScrolling>
     </carousel>
 	
     <text name="systemInfo">
-      <visible>false</visible>
-      <pos>0.03 -0.09</pos>
+      <visible>true</visible>
+      <pos>-0.065 0.845</pos>
       <size>1 0.25</size>
-      <alignment>left</alignment>
+      <alignment>center</alignment>
       <backgroundColor>00000000</backgroundColor>
-      <color>ffffff90</color>
+      <color>000000</color>
       <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
-      <fontSize>0.035</fontSize>
+      <fontSize>0.026</fontSize>
     </text>
 
   </view>
