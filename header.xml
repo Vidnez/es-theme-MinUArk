@@ -20,7 +20,7 @@ License: creative commons CC-BY-NC-SA
     </text>
 
     <batteryIndicator name="batteryIndicator">
-         <pos>0.84 0.003</pos>
+         <pos>0.85 0.003</pos>
          <size>0.06</size>
          <itemSpacing>0.01</itemSpacing>
          <full>./assets/battery=full.svg</full>
