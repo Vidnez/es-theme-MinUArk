@@ -63,6 +63,7 @@ License: creative commons CC-BY-NC-SA
      </image>
   
      <image name="logo">
+      <path>./art/default.svg</path>
       <path>./art/${system.theme}.svg</path>
      </image>
 	
@@ -144,7 +145,7 @@ License: creative commons CC-BY-NC-SA
 	    <origin>0.5 0.5</origin>
       <pos>0.8 0.5</pos>
       <minSize>1 1</minSize>
-      <delay>1</delay>
+      <delay>1.5</delay>
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <showSnapshotDelay>true</showSnapshotDelay>
       <snapshotSource>image</snapshotSource>
