@@ -8,6 +8,7 @@ License: creative commons CC-BY-NC-SA
   <formatVersion>7</formatVersion>
     
   <include name="ES Header">./header.xml</include>
+  <include name="Configs">./config.xml</include>
   
   <view name="menu">
   
@@ -145,7 +146,7 @@ License: creative commons CC-BY-NC-SA
 	    <origin>0.5 0.5</origin>
       <pos>0.8 0.5</pos>
       <minSize>1 1</minSize>
-      <delay>1.5</delay>
+      <delay>${delay}</delay>
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <showSnapshotDelay>true</showSnapshotDelay>
       <snapshotSource>image</snapshotSource>

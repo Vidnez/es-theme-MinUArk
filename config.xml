@@ -1,0 +1,10 @@
+<theme>
+    <formatVersion>4</formatVersion>
+
+        <include subset="Video delay" name="1" displayName="${delay1}">./options/videodelay/video_delay_1.xml</include>
+        <include subset="Video delay" name="2" displayName="${delay2}">./options/videodelay/video_delay_2.xml</include>
+        <include subset="Video delay" name="3" displayName="${delay3}">./options/videodelay/video_delay_3.xml</include>
+        <include subset="Video delay" name="0" displayName="${delay0}">./options/videodelay/video_delay_0.xml</include>
+        <include subset="Video delay" name="No video" displayName="${novideo}">./options/videodelay/no_video.xml</include>
+    
+</theme>
