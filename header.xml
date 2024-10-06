@@ -6,6 +6,8 @@ License: creative commons CC-BY-NC-SA
 -->
 <theme>
   <formatVersion>7</formatVersion>
+
+  <include name="Configs">./config.xml</include>
   
   <view name="screen">
     <text name="clock">
@@ -13,15 +15,16 @@ License: creative commons CC-BY-NC-SA
       <pos>1 0.034</pos>
       <size>0.3 .1</size>
       <fontSize>0.026</fontSize>
-      <color>FFFFFF90</color>
+      <color>${clockcolor}</color>
       <horizontalAlignment>center</horizontalAlignment>
       <verticalAlignment>center</verticalAlignment>
       <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
     </text>
 
     <batteryIndicator name="batteryIndicator">
-         <pos>0.85 0.003</pos>
+         <pos>0.85 0.002</pos>
          <size>0.06</size>
+         <color>${clockcolor}</color>
          <itemSpacing>0.01</itemSpacing>
          <full>./assets/battery=full.svg</full>
          <at75>./assets/battery=75.svg</at75>
@@ -37,8 +40,8 @@ License: creative commons CC-BY-NC-SA
     <helpsystem name="help">
       <pos>-0.1 2</pos>
       <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
-	  <textColor>FFFFFF90</textColor>
-      <iconColor>FFFFFF90</iconColor>
+	  <textColor>${clockcolor}</textColor>
+      <iconColor>${clockcolor}</iconColor>
       <fontSize>0.025</fontSize>
     </helpsystem>
   </view>
@@ -46,8 +49,8 @@ License: creative commons CC-BY-NC-SA
   <view name="basic, detailed, grid">
     <helpsystem name="help">
       <pos>-0.1 2</pos>
-	  <textColor>FFFFFF90</textColor>
-      <iconColor>FFFFFF90</iconColor>
+	  <textColor>${clockcolor}</textColor>
+      <iconColor>${clockcolor}</iconColor>
       <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
       <fontSize>0.02</fontSize>
     </helpsystem>
