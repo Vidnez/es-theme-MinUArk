@@ -99,13 +99,14 @@ License: creative commons CC-BY-NC-SA
       <horizontalMargin>0.03</horizontalMargin>
       <origin>0 0</origin>
       <lineSpacing>1.8</lineSpacing>
-      <selectorImagePath>./assets/selector_bar.png</selectorImagePath>
+      <selectorImagePath>${selectortyped}</selectorImagePath>
       <selectorOffsetY>-0.009</selectorOffsetY>
       <selectorOffsetX>0.2</selectorOffsetX>
       <selectorHeight>0.105</selectorHeight>
     </textlist>
     
 	  <text name="system_name" extra="true">
+      <visible>true</visible>
       <text>${system.fullName}</text>
       <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
       <forceUppercase>0</forceUppercase>
@@ -116,6 +117,7 @@ License: creative commons CC-BY-NC-SA
       <fontSize>0.026</fontSize>
       <zIndex>3</zIndex>
     </text>
+
 
     <image name="background" extra="true">
       <origin>0 0</origin>
@@ -160,7 +162,7 @@ License: creative commons CC-BY-NC-SA
       <horizontalMargin>0.03</horizontalMargin>
       <origin>0 0</origin>
       <lineSpacing>1.8</lineSpacing>
-      <selectorImagePath>./assets/selector_bar_basic.png</selectorImagePath>
+      <selectorImagePath>${selectortypeb}</selectorImagePath>
       <selectorOffsetY>-0.027</selectorOffsetY>
       <selectorOffsetX>0</selectorOffsetX>
       <selectorHeight>0.141</selectorHeight>
@@ -176,6 +178,7 @@ License: creative commons CC-BY-NC-SA
 
 
     <text name="system_name" extra="true">
+      <visible>true</visible>
       <text>${system.fullName}</text>
       <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
       <forceUppercase>0</forceUppercase>
@@ -211,8 +214,8 @@ License: creative commons CC-BY-NC-SA
     </gridtile>
 
     <gridtile name="selected">
-      <backgroundCenterColor>ffffff</backgroundCenterColor>
-      <backgroundEdgeColor>ffffff</backgroundEdgeColor>
+      <backgroundCenterColor>${cselector}</backgroundCenterColor>
+      <backgroundEdgeColor>${cselector}</backgroundEdgeColor>
       <imageColor>ffffff</imageColor>
     </gridtile>
     
@@ -241,6 +244,7 @@ License: creative commons CC-BY-NC-SA
     </image>
 
     <text name="system_name" extra="true">
+      <visible>true</visible>
       <text>${system.fullName}</text>
       <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
       <forceUppercase>0</forceUppercase>
@@ -323,7 +327,7 @@ License: creative commons CC-BY-NC-SA
     </carousel>
 	
     <text name="systemInfo">
-      <visible>true</visible>
+      <visible>false</visible>
       <pos>-0.065 0.845</pos>
       <size>1 0.25</size>
       <alignment>center</alignment>

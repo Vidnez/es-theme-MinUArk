@@ -16,7 +16,11 @@
 
 	<!-- Selector highlight on menus and gamelist -->
 	
-		<cselector>4f43ae</cselector>  <!-- ## main color for selector bar on menus and gamelist ## -->
+		<cselector>471f78</cselector>  <!-- ## main color for selector bar on menus and gamelist ## -->
+
+	<!-- Selector type -->
+		<selectortyped>./assets/selector_bar.png</selectortyped>
+		<selectortypeb>./assets/selector_bar_basic.png</selectortypeb>
 
 	<!-- System view colour settings for text etc -->
 

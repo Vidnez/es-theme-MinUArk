@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>	
+	<variables>
+
+
+	<!-- backgrounds -->
+
+		<homebg>./assets/bg_mark.png</homebg>
+		<listbg>./assets/bg-gl_mark.png</listbg>
+		<gridbg>./assets/bg-glg_mark.png</gridbg>	
+
+	<!-- Menu colours - colours used by the main menus -->
+
+   		<cselected>ffffff</cselected>	<!-- ## selected menu text ## -->
+   		<cmenubg>000000</cmenubg>	<!-- ## menu background color ## -->
+
+	<!-- Selector highlight on menus and gamelist -->
+	
+		<cselector>d95544</cselector>  <!-- ## main color for selector bar on menus and gamelist ## -->
+
+	<!-- Selector type -->
+		<selectortyped>./assets/selector_bar.png</selectortyped>
+		<selectortypeb>./assets/selector_bar_basic.png</selectortypeb>
+  	
+  	<!-- System view colour settings for text etc -->
+
+   		<cinfotext>ffffff</cinfotext>	<!--## info text color ## -->
+   		<clockcolor>ffffff</clockcolor> <!--## clock and battery color -->
+
+	<!-- gamelists -->
+
+		<cgamelisttext>b3b3b3</cgamelisttext>	<!-- ## non-selected text ## -->
+		<cselectedtext>ffffff</cselectedtext>	<!-- ## selected text ## -->
+	
+	
+	</variables>
+</theme>

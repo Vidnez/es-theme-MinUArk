@@ -18,6 +18,10 @@
 	<!-- Selector highlight on menus and gamelist -->
 	
 		<cselector>ffffff</cselector>  <!-- ## main color for selector bar on menus and gamelist ## -->
+
+	<!-- Selector type -->
+		<selectortyped>./assets/selector_bar_legacy.png</selectortyped>
+		<selectortypeb>./assets/selector_bar_basic_legacy.png</selectortypeb>
   	
   	<!-- System view colour settings for text etc -->
 

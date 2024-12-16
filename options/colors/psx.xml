@@ -18,6 +18,10 @@
 	
 		<cselector>00ab9f</cselector>  <!-- ## main color for selector bar on menus and gamelist ## -->
 
+	<!-- Selector type -->
+		<selectortyped>./assets/selector_bar.png</selectortyped>
+		<selectortypeb>./assets/selector_bar_basic.png</selectortypeb>
+
 	<!-- System view colour settings for text etc -->
 
     	<cinfotext>3d423c</cinfotext>	<!--## info text color ## -->
