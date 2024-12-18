@@ -26,7 +26,7 @@
 
 For a experience close to the original MinUI interface: 
 
-- Set Transition Style to "Instant" and turn off carousel transitions (**ArkOS only**) in Start Menu > UI Settings.
+- Set Transition Style to "Instant" (**Rocknix and ArkOS**) and turn off carousel transitions (**ArkOS only**) in Start Menu > UI Settings.
 - The theme is optimized for use screenshots for the "grid" and "detailed" view. Set the following options in the scraper:
 
 	- **Image Source:** Screenshot
@@ -44,7 +44,12 @@ You can download in the "releases section" a loading screen and a boot logo. Ins
 
 **Installation instructions:**
 
-For loading screen copy loading.jpg and loading.ascii files to roms/launchimages or rooms2/launchimages
+- For loading screen, copy loading.jpg and loading.ascii files to roms/launchimages or rooms2/launchimages
 
-For bootlogo copy the "Image" file to the BOOT partition of your SD1 card overwriting the existing one.
+- Set "Game Loading Image Mode" to PIC or ASCII and "Game Loading Image" as DEFAULT in Menu > UI Settings.
+
+- For bootlogo, copy the "Image" file to the BOOT partition of your SD1 card overwriting the existing one.
+
+
+
 
