@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- 
-Theme: MinUArk
+Theme: MinUArk-JELOS
 Original author: Vidnez
 License: creative commons CC-BY-NC-SA
 -->
@@ -22,7 +22,7 @@ License: creative commons CC-BY-NC-SA
     </text>
 
     <batteryIndicator name="batteryIndicator">
-         <pos>0.85 0.002</pos>
+         <pos>0.915 0.003</pos>
          <size>0.06</size>
          <color>${clockcolor}</color>
          <itemSpacing>0.01</itemSpacing>
@@ -32,8 +32,7 @@ License: creative commons CC-BY-NC-SA
          <at25>./assets/battery=25.svg</at25>
          <empty>./assets/battery=empty.svg</empty>
          <incharge>./assets/battery=charging.svg</incharge>
-       
-         </batteryIndicator>
+    </batteryIndicator>
   </view>
 
   <view name="system">

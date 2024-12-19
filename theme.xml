@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- 
-Theme: MinUArk-ARKOS
+Theme: MinUArk-JELOS
 Original author: Vidnez
 License: creative commons CC-BY-NC-SA
 -->
@@ -82,31 +82,29 @@ License: creative commons CC-BY-NC-SA
   
   <view name="detailed">
 	
-    <textlist name="gamelist">
+  <textlist name="gamelist">
       <selectorColor>${cselector}</selectorColor>
       <selectorColorEnd>${cselector}</selectorColorEnd>
       <selectedColor>${cselectedtext}</selectedColor>
       <primaryColor>ffffff90</primaryColor>
       <secondaryColor>ffffff90</secondaryColor>
       <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
-      <backgroundCornerSize>1 1</backgroundCornerSize>
-      <padding>1 1</padding>
-      <fontSize>0.049</fontSize>
-      <pos>0.051 0.167</pos>
-      <size>0.6 0.7</size>
+      <backgroundCornerSize>9 9</backgroundCornerSize>
+      <padding>9 9</padding>
+      <fontSize>0.055</fontSize>
+      <pos>0.054 0.15</pos>
+      <size>0.60 0.8</size>
       <alignment>left</alignment>
       <itemsBeforeCenter>5</itemsBeforeCenter>
       <horizontalMargin>0.03</horizontalMargin>
       <origin>0 0</origin>
       <lineSpacing>1.8</lineSpacing>
       <selectorImagePath>${selectortyped}</selectorImagePath>
-      <selectorOffsetY>-0.009</selectorOffsetY>
-      <selectorOffsetX>0.2</selectorOffsetX>
+      <selectorOffsetY>-0.008</selectorOffsetY>
       <selectorHeight>0.105</selectorHeight>
     </textlist>
     
 	  <text name="system_name" extra="true">
-      <visible>true</visible>
       <text>${system.fullName}</text>
       <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
       <forceUppercase>0</forceUppercase>
@@ -117,7 +115,6 @@ License: creative commons CC-BY-NC-SA
       <fontSize>0.026</fontSize>
       <zIndex>3</zIndex>
     </text>
-
 
     <image name="background" extra="true">
       <origin>0 0</origin>
@@ -131,7 +128,8 @@ License: creative commons CC-BY-NC-SA
       <visible>false</visible>
     </text>
 	
-	    <video name="md_video">
+	
+    <video name="md_video">
       <visible>true</visible>
 	    <origin>0.5 0.5</origin>
       <pos>0.7 0.5</pos>
@@ -144,28 +142,29 @@ License: creative commons CC-BY-NC-SA
       <zIndex>1</zIndex>
     </video>
 	
-  </view>
+    
+	 </view>
   
 
-  <view name="basic">
-    <textlist name="gamelist">
+   <view name="basic">
+      <textlist name="gamelist">
       <selectorColor>${cselector}</selectorColor>
       <selectorColorEnd>${cselector}</selectorColorEnd>
       <selectedColor>${cselectedtext}</selectedColor>
       <primaryColor>ffffff90</primaryColor>
       <secondaryColor>ffffff90</secondaryColor>
       <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
-      <fontSize>0.049</fontSize>
-      <pos>0.054 0.167</pos>
-      <size>0.9 0.7</size>
+      <fontSize>0.055</fontSize>
+      <pos>0.054 0.15</pos>
+      <size>0.9 0.8</size>
       <alignment>left</alignment>
       <horizontalMargin>0.03</horizontalMargin>
       <origin>0 0</origin>
       <lineSpacing>1.8</lineSpacing>
       <selectorImagePath>${selectortypeb}</selectorImagePath>
-      <selectorOffsetY>-0.027</selectorOffsetY>
+      <selectorOffsetY>-0.025</selectorOffsetY>
       <selectorOffsetX>0</selectorOffsetX>
-      <selectorHeight>0.141</selectorHeight>
+      <selectorHeight>0.14</selectorHeight>
     </textlist>
 
     <image name="background" extra="true">
@@ -178,7 +177,6 @@ License: creative commons CC-BY-NC-SA
 
 
     <text name="system_name" extra="true">
-      <visible>true</visible>
       <text>${system.fullName}</text>
       <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
       <forceUppercase>0</forceUppercase>
@@ -190,23 +188,24 @@ License: creative commons CC-BY-NC-SA
       <zIndex>2</zIndex>
     </text>
 
-  </view>
+   </view>
   
   
-  <view name="grid">
-	  <imagegrid name="gamegrid">
-      <systemNameSuffix>true</systemNameSuffix>
-      <pos>-0.01 0.067</pos>
-      <size>1 0.85</size>
-      <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
-      <imageSource>image</imageSource>
-      <scrollDirection>vertical</scrollDirection>
-      <autoLayout>3 3</autoLayout>
-      <margin>0.00001 0.015</margin>
-      <padding>0.02 0.02 0 0</padding>
-      <animateSelection>false</animateSelection>
-      <maxlength>.5</maxlength>
-    </imagegrid>
+   <view name="grid">
+	    <imagegrid name="gamegrid">
+        <systemNameSuffix>true</systemNameSuffix>
+        <pos>-0.01 0.067</pos>
+        <size>1 0.85</size>
+        <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
+        <imageSource>image</imageSource>
+        <gameImage>./assets/default.png</gameImage>
+        <scrollDirection>vertical</scrollDirection>
+        <autoLayout>3 3</autoLayout>
+        <margin>0.00001 0.015</margin>
+        <padding>0.02 0.02 0 0</padding>
+        <animateSelection>false</animateSelection>
+        <maxlength>.5</maxlength>
+      </imagegrid>
 
     <gridtile name="default">
       <backgroundColor>00000000</backgroundColor>
@@ -217,8 +216,8 @@ License: creative commons CC-BY-NC-SA
       <backgroundCenterColor>${cselector}</backgroundCenterColor>
       <backgroundEdgeColor>${cselector}</backgroundEdgeColor>
       <imageColor>ffffff</imageColor>
+
     </gridtile>
-    
     <text name="gridtile">
       <color>ffffff</color>
       <backgroundColor>ffffff00</backgroundColor>
@@ -227,7 +226,6 @@ License: creative commons CC-BY-NC-SA
       <size>.05 0.24</size>
       <visible>false</visible>
     </text>
-    
     <text name="gridtile_selected">
       <color>0e0e29</color>
       <glowColor>ffffff</glowColor>
@@ -244,7 +242,6 @@ License: creative commons CC-BY-NC-SA
     </image>
 
     <text name="system_name" extra="true">
-      <visible>true</visible>
       <text>${system.fullName}</text>
       <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
       <forceUppercase>0</forceUppercase>
@@ -260,6 +257,7 @@ License: creative commons CC-BY-NC-SA
       <visible>false</visible>
     </text>
   
+
     <text name="md_name">
       <color>${cinfotext}</color>
       <forceUppercase>0</forceUppercase>
@@ -288,12 +286,10 @@ License: creative commons CC-BY-NC-SA
       <origin>0 0</origin>
       <color>ffffff80</color>
      </image>
-     
      <image name="gridtile.favorite:selected">
       <path>./assets/favorites.svg</path>
       <color>ffffff</color>
      </image>
-     
      <image name="gridtile.cheevos">
       <path>./assets/cheevos.svg</path>
       <pos>0 1</pos>
@@ -301,16 +297,13 @@ License: creative commons CC-BY-NC-SA
       <origin>0 1</origin>
       <color>ffffff80</color>
      </image>
-     
      <image name="gridtile.cheevos:selected">
       <path>./assets/cheevos.svg</path>
       <color>ffffff</color>
      </image>
 
   </view>
-    
-
-  <view name="system">
+    <view name="system">
   
     <carousel name="systemcarousel" extra="true">
       <type>vertical</type>
@@ -338,5 +331,6 @@ License: creative commons CC-BY-NC-SA
     </text>
 
   </view>
+  
   
 </theme>
