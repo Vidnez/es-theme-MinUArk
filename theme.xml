@@ -206,6 +206,8 @@ License: creative commons CC-BY-NC-SA
       <padding>0.02 0.02 0 0</padding>
       <animateSelection>false</animateSelection>
       <maxlength>.5</maxlength>
+      <showVideoAtDelay>${pandelay}</showVideoAtDelay>
+      <effect>none</effect>
     </imagegrid>
 
     <gridtile name="default">
