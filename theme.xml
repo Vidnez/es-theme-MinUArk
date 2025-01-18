@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- 
-Theme: MinUArk-JELOS
+Theme: MinUArk-Rocknix
 Original author: Vidnez
 License: creative commons CC-BY-NC-SA
 -->
-<theme>
+<theme defaultTransition="instant">
   <formatVersion>7</formatVersion>
+
+  
     
   <include name="ES Header">./header.xml</include>
   <include name="Configs">./config.xml</include>
@@ -53,6 +55,8 @@ License: creative commons CC-BY-NC-SA
   
   <view name="system">
 
+    
+
      <image name="staticBackground">
       <size>1 1</size>
       <pos>0 0</pos>
@@ -60,9 +64,9 @@ License: creative commons CC-BY-NC-SA
       <tile>false</tile>
       <linearSmooth>true</linearSmooth>
       <path>${homebg}</path>
-      <zIndex>0</zIndex>
-     </image>
-  
+      <zIndex>1</zIndex>
+      </image>
+
      <image name="logo">
       <path>./art/default.svg</path>
       <path>./art/${system.theme}.svg</path>
@@ -82,26 +86,24 @@ License: creative commons CC-BY-NC-SA
   
   <view name="detailed">
 	
-  <textlist name="gamelist">
+  <textlist name="gamelist" extra="true">
       <selectorColor>${cselector}</selectorColor>
       <selectorColorEnd>${cselector}</selectorColorEnd>
       <selectedColor>${cselectedtext}</selectedColor>
       <primaryColor>ffffff90</primaryColor>
       <secondaryColor>ffffff90</secondaryColor>
       <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
-      <backgroundCornerSize>9 9</backgroundCornerSize>
-      <padding>9 9</padding>
-      <fontSize>0.055</fontSize>
-      <pos>0.054 0.15</pos>
-      <size>0.60 0.8</size>
+      <fontSize>0.052</fontSize>
+      <pos>0.05 0.115</pos>
+      <size>0.6 0.79</size>
       <alignment>left</alignment>
       <itemsBeforeCenter>5</itemsBeforeCenter>
-      <horizontalMargin>0.03</horizontalMargin>
+      <horizontalMargin>0.019</horizontalMargin>
       <origin>0 0</origin>
-      <lineSpacing>1.8</lineSpacing>
+      <lineSpacing>1.64</lineSpacing>
       <selectorImagePath>${selectortyped}</selectorImagePath>
-      <selectorOffsetY>-0.008</selectorOffsetY>
-      <selectorHeight>0.105</selectorHeight>
+      <selectorHeight>0.085</selectorHeight>
+
     </textlist>
     
 	  <text name="system_name" extra="true">
@@ -113,7 +115,7 @@ License: creative commons CC-BY-NC-SA
       <color>${cinfotext}</color>
       <alignment>center</alignment>
       <fontSize>0.026</fontSize>
-      <zIndex>3</zIndex>
+      <zIndex>4</zIndex>
     </text>
 
     <image name="background" extra="true">
@@ -121,25 +123,34 @@ License: creative commons CC-BY-NC-SA
       <pos>0 0</pos>
       <size>1 1</size>
       <path>${listbg}</path>
-      <zIndex>2</zIndex>
+      <zIndex>3</zIndex>
     </image>
 	
-    <text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_rating, md_image, md_description">
+    <text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_rating, md_description">
       <visible>false</visible>
     </text>
 	
-	
-    <video name="md_video">
+
+    <image name="md_image">
       <visible>true</visible>
-	    <origin>0.5 0.5</origin>
+      <origin>0.5 0.5</origin>
+      <pos>0.7 0.5</pos>
+      <minSize>1 1</minSize>
+      <imageSource>image</imageSource>
+      <zIndex>1</zIndex>
+    </image>
+	
+   <video name="md_video">
+      <visible>true</visible>
+      <origin>0.5 0.5</origin>
       <pos>0.7 0.5</pos>
       <minSize>1 1</minSize>
       <delay>${delay}</delay>
-      <showSnapshotNoVideo>true</showSnapshotNoVideo>
-      <showSnapshotDelay>true</showSnapshotDelay>
+      <showSnapshotNoVideo>false</showSnapshotNoVideo>
+      <showSnapshotDelay>false</showSnapshotDelay>
       <snapshotSource>image</snapshotSource>
-	    <effect>none</effect>
-      <zIndex>1</zIndex>
+      <effect>none</effect>
+      <zIndex>2</zIndex>
     </video>
 	
     
@@ -154,17 +165,16 @@ License: creative commons CC-BY-NC-SA
       <primaryColor>ffffff90</primaryColor>
       <secondaryColor>ffffff90</secondaryColor>
       <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
-      <fontSize>0.055</fontSize>
-      <pos>0.054 0.15</pos>
-      <size>0.9 0.8</size>
+      <fontSize>0.052</fontSize>
+      <pos>0.05 0.115</pos>
+      <size>0.9 0.79</size>
       <alignment>left</alignment>
-      <horizontalMargin>0.03</horizontalMargin>
+      <horizontalMargin>0.019</horizontalMargin>
       <origin>0 0</origin>
-      <lineSpacing>1.8</lineSpacing>
+      <lineSpacing>1.64</lineSpacing>
       <selectorImagePath>${selectortypeb}</selectorImagePath>
-      <selectorOffsetY>-0.025</selectorOffsetY>
-      <selectorOffsetX>0</selectorOffsetX>
-      <selectorHeight>0.14</selectorHeight>
+      <selectorHeight>0.085</selectorHeight>
+      
     </textlist>
 
     <image name="background" extra="true">
@@ -201,29 +211,31 @@ License: creative commons CC-BY-NC-SA
         <gameImage>./assets/default.png</gameImage>
         <scrollDirection>vertical</scrollDirection>
         <autoLayout>3 3</autoLayout>
-        <margin>0.00001 0.015</margin>
-        <padding>0.02 0.02 0 0</padding>
+        <margin>0.015 0.0</margin>
+        <padding>0.05 0.02 0.05 0</padding>
         <animateSelection>false</animateSelection>
         <maxlength>.5</maxlength>
+        <showVideoAtDelay>${pandelay}</showVideoAtDelay>
       </imagegrid>
 
     <gridtile name="default">
       <backgroundColor>00000000</backgroundColor>
       <selectionMode>image</selectionMode>
+      <imageSizeMode>minSize</imageSizeMode>
     </gridtile>
 
     <gridtile name="selected">
       <backgroundCenterColor>${cselector}</backgroundCenterColor>
       <backgroundEdgeColor>${cselector}</backgroundEdgeColor>
       <imageColor>ffffff</imageColor>
-
     </gridtile>
+
     <text name="gridtile">
       <color>ffffff</color>
       <backgroundColor>ffffff00</backgroundColor>
       <fontSize>0.025</fontSize>
       <alignment>center</alignment>
-      <size>.05 0.24</size>
+      <minSize>0.267</minSize>
       <visible>false</visible>
     </text>
     <text name="gridtile_selected">
@@ -253,7 +265,7 @@ License: creative commons CC-BY-NC-SA
       <zIndex>2</zIndex>
     </text>
 
-    <text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_rating">
+    <text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_rating, md_video">
       <visible>false</visible>
     </text>
   
@@ -267,17 +279,6 @@ License: creative commons CC-BY-NC-SA
       <pos>0.037 0.02</pos>
       <size>0.5 0.026</size>
     </text>
-
-     <video name="md_video">
-      <pos>0.9 0.058</pos>
-      <maxSize>0.15 0.12</maxSize>
-      <origin>0.5 0.5</origin>
-      <default>./assets/no_signal.mp4</default>
-      <delay>2</delay>
-      <showSnapshotNoVideo>false</showSnapshotNoVideo>
-      <showSnapshotDelay>false</showSnapshotDelay>
-      <visible>false</visible>
-     </video>
 
 	   <image name="gridtile.favorite">
       <path>./assets/favorites.svg</path>
@@ -307,22 +308,24 @@ License: creative commons CC-BY-NC-SA
   
     <carousel name="systemcarousel" extra="true">
       <type>vertical</type>
-      <pos>0.08 0.15</pos>
-      <size>1 0.7</size>
+      <pos>0 0.104</pos>
+      <size>1 0.8</size>
       <origin>0 0</origin>
       <color>ffffff00</color>
-      <maxLogoCount>7</maxLogoCount>
-      <logoScale>1</logoScale>
+      <maxLogoCount>8.7</maxLogoCount>
+      <logoScale>0.85</logoScale>
       <itemStacking>descending</itemStacking>
-      <logoSize>0.8 0.8</logoSize>
+      <logoSize>0.9 0.9</logoSize>
       <logoPos>0 0</logoPos>
       <fastScrolling>true</fastScrolling>
+      <zIndex>0</zIndex>
     </carousel>
 	
     <text name="systemInfo">
       <visible>false</visible>
       <pos>-0.065 0.845</pos>
       <size>1 0.25</size>
+      <origin>0.5 0.5</origin>
       <alignment>center</alignment>
       <backgroundColor>00000000</backgroundColor>
       <color>${cinfotext}</color>
