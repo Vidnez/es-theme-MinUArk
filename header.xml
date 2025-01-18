@@ -10,9 +10,14 @@ License: creative commons CC-BY-NC-SA
   <include name="Configs">./config.xml</include>
   
   <view name="screen">
+
+    <controllerActivity name="controllerActivity">
+         <visible>false</visible>
+    </controllerActivity>
+    
     <text name="clock">
-      <origin>0 0.5</origin>
-      <pos>1 0.034</pos>
+      <origin>0 0</origin>
+      <pos>0.515 -0.018</pos>
       <size>0.3 .1</size>
       <fontSize>0.026</fontSize>
       <color>${clockcolor}</color>
@@ -22,6 +27,7 @@ License: creative commons CC-BY-NC-SA
     </text>
 
     <batteryIndicator name="batteryIndicator">
+        <visible>false</visible>
          <pos>0.915 0.003</pos>
          <size>0.06</size>
          <color>${clockcolor}</color>
@@ -33,11 +39,39 @@ License: creative commons CC-BY-NC-SA
          <empty>./assets/battery=empty.svg</empty>
          <incharge>./assets/battery=charging.svg</incharge>
     </batteryIndicator>
+
+    <batteryIcon name="system-battery-icon">
+            <size>0.04</size>
+            <pos>0.88 0.013</pos>
+            <color>${clockcolor}</color>
+            <full>./assets/battery=full.svg</full>
+         <at75>./assets/battery=75.svg</at75>
+         <at50>./assets/battery=50.svg</at50>
+         <at25>./assets/battery=25.svg</at25>
+         <empty>./assets/battery=empty.svg</empty>
+         <incharge>./assets/battery=charging.svg</incharge>
+         </batteryIcon>
+    
+    <batteryText name="system-battery-text">
+          <color>${clockcolor}</color>
+          <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
+          <fontSize>0.026</fontSize>
+          <pos>0.935 0.013</pos>
+    </batteryText>
+
+    <networkIcon name="system-network-icon">
+            <size>0.03</size>
+            <pos>0.83 0.017</pos>
+            <color>${clockcolor}</color>
+            <networkIcon>./assets/network-icon-on.svg</networkIcon>
+            <planemodeIcon>./assets/network-icon-off.svg</planemodeIcon>
+         </networkIcon>
   </view>
 
   <view name="system">
     <helpsystem name="help">
-      <pos>-0.1 2</pos>
+      <pos>0.5 2.97</pos>
+       <origin>0.5 0.5</origin>
       <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
 	  <textColor>${clockcolor}</textColor>
       <iconColor>${clockcolor}</iconColor>
