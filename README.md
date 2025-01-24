@@ -1,3 +1,5 @@
+<h1>This version has been deprecated, the new version will be available at https://github.com/Vidnez/IO.git </h1>
+
 <h1 align="center">A theme for 1:1 screens based on ShaunInman's MinUI</h1>
 
 
