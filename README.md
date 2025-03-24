@@ -1,8 +1,4 @@
-<h1>This version has been deprecated, the new version will be available at https://github.com/Vidnez/IO.git </h1>
-<b>IMPORTANT</b>
 
-- The new theme (IO) uses features supported only by an updated version of EmulationStation present in the latest version of <b>Rocknix and Knulli.</b>
-If you have a device with ArkOS use this theme instead.
 
 
 <h1 align="center">A theme for 1:1 screens based on ShaunInman's MinUI</h1>
