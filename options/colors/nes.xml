@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>	
+	<variables>
+
+
+	<!-- backgrounds -->
+
+		<homebg>./assets/bg_nes.png</homebg>
+		<listbg>./assets/bg-gl_nes.png</listbg>
+		<gridbg>./assets/bg-glg_nes.png</gridbg>	
+
+	<!-- Menu colours - colours used by the main menus -->
+
+   		<cselected>ffffff</cselected>	<!-- ## selected menu text ## -->
+   		<cmenubg>28323280</cmenubg>	<!-- ## menu background color ## -->
+
+	<!-- Selector highlight on menus and gamelist -->
+	
+		<cselector>e40408</cselector>  <!-- ## main color for selector bar on menus and gamelist ## -->
+	
+	<!-- Selector type -->
+		<selectortyped>./assets/selector_bar.png</selectortyped>
+		<selectortypeb>./assets/selector_bar_basic.png</selectortypeb>
+  	
+  	<!-- System view colour settings for text etc -->
+
+   		<cinfotext>ffffff</cinfotext>	<!--## info text color ## -->
+   		<clockcolor>ffffff</clockcolor> <!--## clock and battery color -->
+
+	<!-- gamelists -->
+
+		<cgamelisttext>b3b3b3</cgamelisttext>	<!-- ## non-selected text ## -->
+		<cselectedtext>ffffff</cselectedtext>	<!-- ## selected text ## -->
+	
+	
+	</variables>
+</theme>

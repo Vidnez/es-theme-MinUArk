@@ -1,0 +1,27 @@
+<theme>
+    
+    <formatVersion>4</formatVersion>
+
+        <!-- Theme styles -->
+
+        <include subset="Style" name="Original" displayName="Original">./options/colors/minui.xml</include>
+        <include subset="Style" name="SNES" displayName="SNES">./options/colors/super.xml</include>
+        <include subset="Style" name="PSX" displayName="PSX">./options/colors/psx.xml</include>
+        <include subset="Style" name="MARK III" displayName="MARK III">./options/colors/mark.xml</include>
+        <include subset="Style" name="NES" displayName="NES">./options/colors/nes.xml</include>
+
+        <!-- Theme video delay -->
+
+        <include subset="Video delay" name="1 sec." displayName="1 sec.">./options/videodelay/video_delay_1.xml</include>
+        <include subset="Video delay" name="2 sec." displayName="2. sec.">./options/videodelay/video_delay_2.xml</include>
+        <include subset="Video delay" name="3 sec." displayName="3 sec.">./options/videodelay/video_delay_3.xml</include>
+        <include subset="Video delay" name="Instant" displayName="Instant">./options/videodelay/video_delay_0.xml</include>
+        <include subset="Video delay" name="No video" displayName="No video">./options/videodelay/no_video.xml</include>
+
+        <!-- Theme compatibility -->
+
+        <include subset="Cpmpatibility" name="ArkOS" displayName="ArkOS">./options/os/arkos.xml</include>
+         <include subset="Cpmpatibility" name="Jelos/Rocknix" displayName="Jelos/Rocknix">./options/os/jelrock.xml</include>
+
+
+</theme>
