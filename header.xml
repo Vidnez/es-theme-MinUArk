@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Theme: MinUArk
+Original author: Vidnez
+License: creative commons CC-BY-NC-SA
+-->
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <include name="Configs">./config.xml</include>
+  
+  <view name="screen">
+    <text name="clock">
+      <origin>0 0.5</origin>
+      <pos>1 0.034</pos>
+      <size>0.3 .1</size>
+      <fontSize>0.026</fontSize>
+      <color>${clockcolor}</color>
+      <horizontalAlignment>center</horizontalAlignment>
+      <verticalAlignment>center</verticalAlignment>
+      <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
+    </text>
+
+    <batteryIndicator name="batteryIndicator">
+         <pos>${sysiconspos}</pos>
+         <size>${sysiconssize}</size>
+         <color>${clockcolor}</color>
+         <itemSpacing>0.01</itemSpacing>
+         <full>./assets/battery=full.svg</full>
+         <at75>./assets/battery=75.svg</at75>
+         <at50>./assets/battery=50.svg</at50>
+         <at25>./assets/battery=25.svg</at25>
+         <empty>./assets/battery=empty.svg</empty>
+         <incharge>./assets/battery=charging.svg</incharge>
+       
+         </batteryIndicator>
+  </view>
+
+  <view name="system">
+    <helpsystem name="help">
+      <pos>-0.1 2</pos>
+      <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
+	  <textColor>${clockcolor}</textColor>
+      <iconColor>${clockcolor}</iconColor>
+      <fontSize>0.025</fontSize>
+    </helpsystem>
+  </view>
+  
+  <view name="basic, detailed, grid">
+    <helpsystem name="help">
+      <pos>-0.1 2</pos>
+	  <textColor>${clockcolor}</textColor>
+      <iconColor>${clockcolor}</iconColor>
+      <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
+      <fontSize>0.02</fontSize>
+    </helpsystem>
+  </view>
+  
+</theme>

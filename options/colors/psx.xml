@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>	
+	<variables>
+
+	<!-- backgrounds -->
+
+		<homebg>./assets/bg_psx.png</homebg>
+		<listbg>./assets/bg-gl_psx.png</listbg>
+		<gridbg>./assets/bg-glg_psx.png</gridbg>
+
+	<!-- Menu colours - colours used by the main menus -->
+
+    	<cselected>FFFFFF</cselected>	<!-- ## selected menu text ## -->
+    	<cmenubg>10101080</cmenubg>	<!-- ## menu background color ## -->
+
+	<!-- Selector highlight on menus and gamelist -->
+	
+		<cselector>00ab9f</cselector>  <!-- ## main color for selector bar on menus and gamelist ## -->
+
+	<!-- Selector type -->
+		<selectortyped>./assets/selector_bar.png</selectortyped>
+		<selectortypeb>./assets/selector_bar_basic.png</selectortypeb>
+
+	<!-- System view colour settings for text etc -->
+
+    	<cinfotext>ffffff</cinfotext>	<!--## info text color ## -->
+    	<clockcolor>ffffff</clockcolor> <!--## clock and battery color -->
+
+	<!-- gamelists -->
+
+		<cgamelisttext>b3b3b3</cgamelisttext>	<!-- ## non-selected text ## -->
+		<cselectedtext>FFFFFF</cselectedtext>	<!-- ## selected text ## -->
+	
+	
+	</variables>
+</theme>
